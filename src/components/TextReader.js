@@ -32,6 +32,7 @@ const TextReader = () => {
               ref={inputSlide}
               type="file"
               onChange={fileChange}
+              accept={".txt"}
               style={{ display: "none" }}
             />
             <UploadIcon
